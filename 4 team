@@ -1,0 +1,20 @@
+# cook your dish here
+i = 12
+r = 40
+n_i = 0
+r_i = 0
+a = 0
+k = 11
+n = r_i - n_i
+for m in range(1,k):
+    k = m*i
+    n = 0
+    while k > n:
+        a += 1
+        n = a*r - (n_i+a)*i
+    n_i += a
+    r_i = a
+    
+    
+    print(n_i,n,k)
+    
